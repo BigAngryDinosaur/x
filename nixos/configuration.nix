@@ -40,32 +40,10 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-
     zsh
-
-    wget 
-    bat
-
-    firefox-bin
-    vlc
-    spotify
     nitrogen
-
-    neovim
-
-    tldr
-    ripgrep
-
-    gitAndTools.gitFull
-
     haskellPackages.xmobar
     dmenu
-
-    alacritty
-
-    steam
-    transmission-gtk
-
     vanilla-dmz
     xlibs.xmodmap xlibs.xset xlibs.setxkbmap
   ];
